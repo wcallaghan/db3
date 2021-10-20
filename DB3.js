@@ -8,16 +8,16 @@ function DisplayStrings() {
     alert("The first letter of the string is...");    //Display the char value at index 0
     alert(string1.charAt(0));
 
-    alert("The string starts with In is");   //Boolean if the string beings with the argument
+    alert("The string starts with In. This is...");   //Boolean if the string beings with the argument
     alert(string1.startsWith("In"));
 
-    alert("the string is now lowercase");        //Display the string as lowercase
+    alert("the string will now be lowercase");        //Display the string as lowercase
     alert(string1.toLowerCase());
 
-    alert("THE STRING IS NOW UPPERCASE");         //Display the string as uppercase
+    alert("THE STRING WILL NOW BE UPPERCASE");         //Display the string as uppercase
     alert(string1.toUpperCase());
 
-    alert("The string ends with UTF-16. is"); //Boolean if the string ends with the argument
+    alert("The string ends with UTF-16. This is..."); //Boolean if the string ends with the argument
     alert(string1.endsWith("UTF-16."));
 
     
